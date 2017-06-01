@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GifTransform.iml" filepath="$PROJECT_DIR$/GifTransform.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easygiftransform/easygiftransform.iml" filepath="$PROJECT_DIR$/easygiftransform/easygiftransform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyGifTransform/easygiftransform.iml" filepath="$PROJECT_DIR$/EasyGifTransform/easygiftransform.iml" />
     </modules>
   </component>
 </project>

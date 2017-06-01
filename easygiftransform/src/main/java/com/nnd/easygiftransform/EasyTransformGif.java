@@ -41,7 +41,7 @@ public class EasyTransformGif extends AppCompatImageView {
      */
     public EasyTransformGif(Context context) {
         super(context);
-        init(context);
+        init();
     }
 
     /**
@@ -50,13 +50,12 @@ public class EasyTransformGif extends AppCompatImageView {
      */
     public EasyTransformGif(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(context);
+        init();
     }
 
-    private void init(Context context) {
+    private void init() {
         Timber.plant(new Timber.DebugTree());
         GlideBitmapPool.initialize(10 * 1024 * 1024);
-        this.context = context;
         this.fillerColor = 0;
         this.alpha = 100;
         this.borderColor = DEFAULT_COLOR;
